@@ -30,9 +30,12 @@ a{
 }
 
 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 20px;
   font-family: 'Quicksand', sans-serif;
-  border-radius: 100%;
+  border-radius: 35%;
   height: 50px;
   width: 50px;
   cursor: pointer;

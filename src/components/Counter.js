@@ -16,9 +16,9 @@ export default function(){
 
     return(
       <div className="counter">
-         <button onClick={substract}>-</button>
-            <div>{counter}</div>
          <button onClick={add}>+</button>
+            <div>{counter}</div>
+         <button onClick={substract}>-</button>
       </div>
     )
   }
